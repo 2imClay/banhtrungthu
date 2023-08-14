@@ -227,7 +227,9 @@ header p{
     display: block;
 }
 
-
+.price {
+    color: #db6e20;
+}
 
 /* CONTACT */
 .contact__content{
