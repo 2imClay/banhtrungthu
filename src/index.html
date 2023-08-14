@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bánh Trung Thu</title>
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/2b55489401.js" crossorigin="anonymous"></script>
+
+
+    <!-- BS4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Venobox JS -->
+    <link rel="stylesheet" href="./VenoBox-master/dist/venobox.min.css" media="screen">
+
+    <link rel="stylesheet" href="./assets/js/main.js">
+
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="container-md">
+      <p class="text-right text-white mb-0">
+          <i class="fas fa-phone-alt"></i>
+          <span class="mx-3 border-right pr-2">096.105.1014</span>
+          <i class="fa fa-search"></i>
+      </p>
+      <nav class="navbar navbar-expand-md px-0">
+          <!-- <a class="navbar-brand" href="#">
+              <img style="width:100px;height:100px" src="./hinh anh/Logo_HCMUAF.png" alt="logo">
+          </a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shoesNavBar"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                  <i class="fa fa-bars"></i>
+              </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="shoesNavBar">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active line">
+                      <a class="nav-link" href="#shoesCarousel">TRANG CHỦ</a>
+                  </li>
+                  <li class="nav-item line">
+                      <a class="nav-link" href="#all">TẤT CẢ</a>
+                  </li>
+                  <li class="nav-item line">
+                      <a class="nav-link" href="#Contact">LIÊN HỆ</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <header id="headerFixed">
+      <nav class="navbar container navbar-expand-md">
+          <!-- <a class="navbar-brand" href="#">
+              <img style="width:100px; height:100px" src="./hinh anh/Logo_HCMUAF.png" alt="logo">
+          </a> -->
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shoesNavBar"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                  <i class="fa fa-bars"></i>
+              </span>
+          </button> -->
+
+          <div class="collapse navbar-collapse" id="shoesNavBar">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active line">
+                      <a class="nav-link" href="#shoesCarousel">TRANG CHỦ</a>
+                  </li>
+                  <li class="nav-item line">
+                      <a class="nav-link" href="#all">TẤT CẢ</a>
+                  </li>
+                  <li class="nav-item line">
+                      <a class="nav-link" href="#Contact">LIÊN HỆ</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <!-- CAROUSEL -->
+  <section class="shoesCarousel" id="shoesCarousel">
+      <!-- data-ride="carousel" -->
+      <div id="carouselShoes" class="carousel slide carousel-fade">
+          <!-- <ol class="container carousel-indicators">
+              <li data-target="#carouselShoes" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselShoes" data-slide-to="1"></li>
+              <li data-target="#carouselShoes" data-slide-to="2"></li>
+          </ol> -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="./hinh anh/nền kido.jpg" class="d-block w-100" alt="...">
+              </div>
+          </div>
+          
+  <div id="all"></div>
+  <!-- SHOWTIMES -->
+  <section class="showTimes section" >
+      <div class="container-md" >
+          <ul class="nav nav-tabs flex-column flex-sm-row" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                  <a class="nav-link line active" id="mon-tab" data-toggle="tab" href="#mon" role="tab"
+                      aria-controls="home" aria-selected="true">
+                      <span>TẤT CẢ CÁC SẢN PHẨM</span>
+                  </a>
+                  <br>
+                  <br>
+              </li>
+              <div class="newIn__content">
+                  <div class="row">
+                      <div class="col-6 col-md-3">
+                          <div class="newIn__img">
+                              <img class="img-fluid" src="./hinh anh/logo_kido.png" alt="">
+                              <div class="newIn__overlay"></div>
+                              <div class="newIn__play">
+                                  <div>
+                                      <p class="date">GIÁ : 750.000</p>
+                                  </div>
+
+                              </div>
+                          </div>
+                          <div class="newIn__title mb-3 mb-md-0">
+                              <h3>Bánh Trung Thu KIDO <br> Vị thập cẩm </h3>
+                          </div>
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                          <div class="newIn__img">
+                              <img class="img-fluid" src="./hinh anh/logo_kido.png" alt="">
+                              <div class="newIn__overlay"></div>
+                              <div class="newIn__play">
+                                <div>
+                                    <p class="date">GIÁ : 750.000</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="newIn__title mb-3 mb-md-0">
+                            <h3>Bánh Trung Thu KIDO <br> Vị thập cẩm </h3>
+                          </div>
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                          <div class="newIn__img">
+                              <img class="img-fluid" src="./hinh anh/logo_kido.png" alt="">
+                              <div class="newIn__overlay"></div>
+                              <div class="newIn__play">
+                                <div>
+                                    <p class="date">GIÁ : 750.000</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="newIn__title mb-3 mb-md-0">
+                            <h3>Bánh Trung Thu KIDO <br> Vị thập cẩm </h3>
+                          </div>
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                          <div class="newIn__img">
+                              <img class="img-fluid" src="./hinh anh/logo_kido.png" alt="">
+                              <div class="newIn__overlay"></div>
+                              <div class="newIn__play">
+                                <div>
+                                    <p class="date">GIÁ : 750.000</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="newIn__title mb-3 mb-md-0">
+                            <h3>Bánh Trung Thu KIDO <br> Vị thập cẩm </h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </ul>
+      </div>
+
+  </section>
+  
+  <!-- CONTACT -->
+  <section class="contact section" id="Contact">
+      <div class="contact__content">
+          <p class="address_title">LIÊN HỆ VỚI CHÚNG TÔI ĐỂ ĐẶT BÁNH TRUNG THU KIDO's BAKERY</p>
+          <p><a href="#">096 105 1014</a></p>
+          <p class="address">   Nhà sản xuất: Công ty cổ phần dầu thực vật Tường An (thuộc tập đoàn KIDO) <br>
+                                Địa chỉ : </p>
+
+      </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+      <div class="container">
+          <div class="row section">
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <h3>GET IN TOUCH</h3>
+                  <ul>
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">Give us feedback</a></li>
+                      <li><a href="#">Contact us</a></li>
+                  </ul>
+              </div>
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <h3>ABOUT SHOES</h3>
+                  <ul>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Find us</a></li>
+                      <li><a href="#">Schedule</a></li>
+                      <li><a href="#">News</a></li>
+                  </ul>
+              </div>
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <h3>LEGAL STUFF</h3>
+                  <ul>
+                      <li><a href="#">Terms & Conditions</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                      <li><a href="#">Cookie policy</a></li>
+
+                  </ul>
+              </div>
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <h3>CONNECT WITH US</h3>
+                  <ul>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="footer__copyright">
+              <p>Địa chỉ : </p>
+          </div>
+      </div>
+  </footer>
+
+  <!-- Thư viện hỗ trợ -->
+  <script src="./assets/js/jquery-3.6.1.min.js"></script>
+
+  <!-- BS4 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+  <!-- VENOBOX JS     -->
+  <script src="./VenoBox-master/dist/venobox.min.js"></script>
+  <script>
+      $(document).ready(function () {
+          $('.venobox').venobox();
+      });
+  </script>
+
+  <!-- MAIN JS -->
+  <script>
+
+      window.onscroll = function () {
+          //Code tạo hiệu ứng xuất hiện thanh màu đen khi scroll
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+              // translate(-50%,0)
+              document.getElementById("headerFixed").style.transform = "translate(-50%,0)";
+          } else {
+              document.getElementById("headerFixed").style.transform = "translate(-50%,-100%)";
+          }
+      }
+  </script>
+  </body>
+</html>
