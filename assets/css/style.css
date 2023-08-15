@@ -240,6 +240,18 @@ header p{
     color: white;
 }
 
+.place .list_img {
+    display: flex;
+}
+
+.place .list_img img{
+    width: 50%;
+    height: 50%;
+    margin-right: 10px;
+
+}
+
+
 /* CONTACT */
 .contact__content{
     text-align: center;
