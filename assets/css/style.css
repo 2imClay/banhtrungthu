@@ -89,8 +89,13 @@ header p{
 .tx_mid {
     margin-left: 10%;
 } */
+/* #carousel .carousel-item{
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
-/* #carouselShoes .carousel-indicators{
+#carousel .carousel-indicators{
     justify-content: flex-start;
     bottom: 10%;
     left:50%;
@@ -101,7 +106,7 @@ header p{
     padding-left: 15px;
 }
 
-#carouselShoes .carousel-indicators li{
+#carousel .carousel-indicators li{
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -111,29 +116,25 @@ header p{
     box-sizing: border-box;
 }
 
-#carouselShoes .carousel-indicators li.active{
+#carousel .carousel-indicators li.active{
     background: white;
 }
 
-.shoesCarousel__overlay{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top,black,transparent);
-}
 
-#carouselShoes{
-    height: 650px;
+#carousel{
+    height: 500px;
 }
-#carouselShoes .carousel-inner{
+#carousel .carousel-inner{
     height: 100%;
 }
-#carouselShoes  .carousel-item{
+#carousel  .carousel-item{
     height: 100%;
     background-position: center;
     background-size: cover;
+}
+
+#carousel .img_carousel{
+    margin-left: 150px;
 } */
 
 
@@ -229,6 +230,14 @@ header p{
 
 .price {
     color: #db6e20;
+}
+
+
+.place{
+    /* background-image: url(../img/slide-3.png); */
+    background: #101010;
+    background-size: cover;
+    color: white;
 }
 
 /* CONTACT */
